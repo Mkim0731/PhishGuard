@@ -13,3 +13,18 @@ line introduction (why serving a spec leader)
 • Repository Organization Introduction
 Design is your choice. Each team has 3 minutes to introduce the team's profile during the second class.
 Include but not limited to : how do you name your team? Why do your team assign roles this way? What does your repository looks like
+
+# Team Name
+  <Enter Team Name>
+
+# Team Leader
+  <Enter Team Leader Name>
+
+# Techsmith
+  <Enter Techsmith Name>
+
+# Systems Savvy
+  <Enter Systems Savvy Name>
+
+# Quality Assurance Leader 
+  <Enter QA Lead Name>
