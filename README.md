@@ -28,3 +28,11 @@ Include but not limited to : how do you name your team? Why do your team assign 
 
 # Quality Assurance Leader 
   <Enter QA Lead Name>
+
+# Project Idea:
+- A clear and concise description of the project.
+- Include a figure or diagram (e.g., flowchart, wireframe, or mockup) to visually represent the project idea.
+
+# Repository Structure
+
+Briefly describe how the project will be organized (e.g., folders for code, documentation, assets, etc.).
