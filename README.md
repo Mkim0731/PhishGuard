@@ -9,23 +9,21 @@ This assignment asks you to
 - Systems savvy: a documentation lead and risk analyzer, who has abilities to produce high-quality documentation with clear project descriptions. Up to two-line introduction (why serving a spec leader)
 - Quality Assurance Leader Name and Email (one): knowledgeable to realize unit tests, verify the correctness, and evaluate code to optimize the logic
 - Repository Organization Introduction
+
 Design is your choice. Each team has 3 minutes to introduce the team's profile during the second class.
 Include but not limited to : how do you name your team? Why do your team assign roles this way? What does your repository looks like
 
 # Team Name
-  <Enter Team Name>
+### <Enter Team Name>
 
-# Team Leader
-  <Enter Team Leader Name>
+# Member Roles
+### Team Leader:
 
-# Techsmith
-  <Enter Techsmith Name>
+### Techsmith:
 
-# Systems Savvy
-  <Enter Systems Savvy Name>
+### System Savvy: Zi Xuan Li
 
-# Quality Assurance Leader 
-  <Enter QA Lead Name>
+### Quality Assurance Leader:
 
 # Project Idea:
 - A clear and concise description of the project.
