@@ -26,6 +26,15 @@ Include but not limited to : how do you name your team? Why do your team assign 
   A documentation lead and risk analyzer, who has abilities to produce high-quality documentation with clear project descriptions. Up to two-line introduction (why serving a spec leader)
 ### Quality Assurance Leader: Minsu Kim
   Knowledgeable to realize unit tests, verify the correctness, and evaluate code to optimize the logic
+
+
+# 🔎 About PhishGuard
+PhishGuard is an AI-driven phishing email detection system designed to protect users from malicious cyber threats. By leveraging machine learning and NLP, it analyzes email text, metadata, and embedded links to detect phishing attempts in real-time.
+
+# 🚨 Why It Matters
+Phishing attacks are among the most common cybersecurity threats, often leading to fraud, identity theft, and data breaches. PhishGuard automates phishing detection, helping individuals and organizations stay protected against evolving email-based scams.
+
+
 # Project Idea:
 - A clear and concise description of the project.
 - Include a figure or diagram (e.g., flowchart, wireframe, or mockup) to visually represent the project idea.
