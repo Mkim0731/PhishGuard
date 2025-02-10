@@ -34,10 +34,26 @@ PhishGuard is an AI-driven phishing email detection system designed to protect u
 # 🚨 Why It Matters
 Phishing attacks are among the most common cybersecurity threats, often leading to fraud, identity theft, and data breaches. PhishGuard automates phishing detection, helping individuals and organizations stay protected against evolving email-based scams.
 
+# ⚡ Key Capabilities
+✔️ 🔍 AI-Powered Email Screening – Uses machine learning to detect phishing attempts by analyzing email content, sender details, and metadata.
 
-# Project Idea:
-- A clear and concise description of the project.
-- Include a figure or diagram (e.g., flowchart, wireframe, or mockup) to visually represent the project idea.
+✔️ ⏳ Real-Time Alerts – Instantly warns users when a suspicious email is detected, providing visual indicators within Gmail and Outlook.
+
+✔️ 🌐 URL & Link Analysis – Scans embedded URLs for malicious domains, flagging phishing links before users click on them.
+
+✔️ 📧 Outlook Security Check – Examines email headers for SPF, DKIM, and DMARC validation, identifying spoofed senders and unauthorized sources.
+
+✔️ 🔒 Gmail Encryption & TLS Verification – Verifies whether emails use secure TLS encryption, ensuring message integrity and preventing data interception.
+
+# 🔮 Future Roadmap
+  🚀 Deep Learning Upgrades – Implementing LSTMs/Transformers for enhanced accuracy.
+  📊 Threat Monitoring Dashboard – A visual interface for tracking phishing trends.
+  🔗 Browser & Email Client Extensions – Live phishing detection while browsing or checking emails.
+
+# 🌍 Who Can Benefit?
+  🔹 Cybersecurity Teams – Strengthen email security using AI-powered detection.
+  🔹 Businesses & Enterprises – Prevent data breaches and phishing-related financial losses.
+  🔹 Everyday Users – Avoid scams and phishing attempts effortlessly.
 
 # Repository Structure
 
