@@ -42,6 +42,9 @@ Phishing attacks are among the most common cybersecurity threats, often leading 
 
 🔹 Everyday Users – Avoid scams and phishing attempts effortlessly.
 
+# Existing Application / Competitors
+
+
 # 📂 Repository Structure
 - docs/ #Documentation Files
 - src/ #Source code
