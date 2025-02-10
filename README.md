@@ -35,8 +35,11 @@ Phishing attacks are among the most common cybersecurity threats, often leading 
 🔗 Browser & Email Client Extensions – Live phishing detection while browsing or checking emails. -->
 
 🌍 Who Can Benefit?
+
 🔹 Cybersecurity Teams – Strengthen email security using AI-powered detection.
+
 🔹 Businesses & Enterprises – Prevent data breaches and phishing-related financial losses.
+
 🔹 Everyday Users – Avoid scams and phishing attempts effortlessly.
 
 # 📂 Repository Structure
