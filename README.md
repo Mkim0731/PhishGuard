@@ -14,7 +14,7 @@ Design is your choice. Each team has 3 minutes to introduce the team's profile d
 Include but not limited to : how do you name your team? Why do your team assign roles this way? What does your repository looks like
 
 # Team Name
-### Team Captch
+### Team Phish
 
 # Member Roles
 ### Team Leader:
