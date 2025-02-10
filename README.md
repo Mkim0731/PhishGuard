@@ -1,15 +1,15 @@
 # 🛡 PhishGuard - AI-Powered Phishing Detection
 ### 👥 Meet the Team
-🔹 Team Leader - Nizar Azar
+### 🔹 Team Leader - Nizar Azar 
 Hi, I’m Nizar Azar, leading the PhishGuard initiative. My role is to oversee development, ensure smooth collaboration, and drive our team toward delivering an impactful security solution.
 
-🔹 Techsmith - Peng Gao
+### 🔹 Techsmith - Peng Gao 
 Hello! I’m Peng Gao, As the Techsmith, I specialize in implementing cutting-edge technologies, optimizing system performance, and ensuring our phishing detection model is efficient and scalable.
 
-🔹 Systems Savvy - Zi Xuan Li
+### 🔹 Systems Savvy - Zi Xuan Li 
 Hey there! I’m Zi Xuan Li, With a keen eye for detail, I manage project documentation, ensuring clear, well-structured records of system architecture, workflows, and technical processes.
 
-Quality Assurance Lead - Minsu Kim
+### 🔹 Quality Assurance Lead - Minsu Kim 
 Hi, I am Minsu Kim. As the Quality Assurance Lead, I rigorously test our phishing detection system to ensure accuracy, reliability, and security before deployment.
 
 # 🔎 About PhishGuard
