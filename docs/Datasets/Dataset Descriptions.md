@@ -1,7 +1,7 @@
 # Dataset Collection and Analysis
-
+This section includes five datasets collected from various sources. Each dataset is described with key features, preprocessing steps, and any challenges that may be faced. We also provide a comparative analysis to justify the selection of datasets based on their relevance and quality. 
 ## Datasets
-  
+
 ### Phishing Email Data by Type
 - **Source:** [Kaggle](https://www.kaggle.com/datasets/charlottehall/phishing-email-data-by-type)
 - **Description:** This dataset contains phishing, fraud, commercial spam, and legitimate emails. There are two features namely “Subject” & “Text” with a label titled “Type”.
