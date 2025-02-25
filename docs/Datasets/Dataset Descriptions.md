@@ -38,7 +38,7 @@ This section includes five datasets collected from various sources. Each dataset
 - **Comparative Analysis:** The dataset provides raw email content along with pre-labeled email types, making it suitable for binary classification. However, compared to other datasets, it offers fewer features, which may require additional preprocessing to enhance the model's performance.
   
 ### Phishing Email Dataset
-- **Source:** [kaggle](https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-dataset?utm_source=chatgpt.comDatasets)
+- **Source:** [Kaggle](https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-dataset?utm_source=chatgpt.comDatasets)
 - **Description:** This dataset contains phishing and legitimate email samples. It includes both the subject and body of emails with a corresponding label indicating if the email is phishing or not.
 - **Usability:**
     - Perform comprehensive text cleaning, removing special characters, numbers, and stop words to focus on the core message.
@@ -58,4 +58,5 @@ https://archive.ics.uci.edu/dataset/967/phiusiil+phishing+url+dataset.
 Gu, Mandy. LingSpam Dataset. Kaggle, 2023,<br>
 https://www.kaggle.com/datasets/mandygu/lingspam-dataset.
 
-Abdullah Alam, Naser. Phishing Email Dataset. Kaggle, 2023, <br> https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-dataset?utm_source=chatgpt.comDatasets
+Abdullah Alam, Naser. Phishing Email Dataset. Kaggle, 2023, <br> 
+https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-dataset?utm_source=chatgpt.comDatasets
