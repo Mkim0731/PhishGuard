@@ -1,9 +1,14 @@
 # Advancing Phishing Email Detection: A Comparative Study of Deep Learning Models
 Authors: N. Altwaijry, I. Al-Turaiki, R. Alotaibi, F. Alakeel
+
 Published On: March 24, 2024
+
 Journal: Sensors, Volume 24, Article 2077
+
 Academic Editors: He Fang and Sherali Zeadally
+
 Link: https://doi.org/10.3390/s24072077
+
 Summary by: Minsu Kim
 
 ## Problem Statement:
