@@ -55,6 +55,7 @@ https://www.kaggle.com/datasets/subhajournal/phishingemails.
 Zhang, Xiyue. PHIUSIIL Phishing URL Dataset. UCI Machine Learning Repository, 2023, <br>
 https://archive.ics.uci.edu/dataset/967/phiusiil+phishing+url+dataset.
 
-Gu, Mandy. LingSpam Dataset. Kaggle, 2023,
+Gu, Mandy. LingSpam Dataset. Kaggle, 2023,<br>
 https://www.kaggle.com/datasets/mandygu/lingspam-dataset.
 
+Abdullah Alam, Naser. Phishing Email Dataset. Kaggle, 2023, <br> https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-dataset?utm_source=chatgpt.comDatasets
