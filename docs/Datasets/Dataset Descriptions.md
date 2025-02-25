@@ -43,4 +43,16 @@ This section includes five datasets collected from various sources. Each dataset
 - **Usability:**
 - **Comparative Analysis:**
 
+## Citations
+Hall, Charlotte. Phishing Email Data by Type. Kaggle, 2023, <br>
+https://www.kaggle.com/datasets/charlottehall/phishing-email-data-by-type.
+
+SubhaJournal. Phishing Emails. Kaggle, 2023, <br>
+https://www.kaggle.com/datasets/subhajournal/phishingemails.
+
+Zhang, Xiyue. PHIUSIIL Phishing URL Dataset. UCI Machine Learning Repository, 2023, <br>
+https://archive.ics.uci.edu/dataset/967/phiusiil+phishing+url+dataset.
+
+Gu, Mandy. LingSpam Dataset. Kaggle, 2023, <br>
+https://www.kaggle.com/datasets/mandygu/lingspam-dataset.
 
