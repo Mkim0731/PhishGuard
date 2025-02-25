@@ -24,8 +24,8 @@ The paper introduces the MultiText-LP model, a hybrid framework that integrates:
 The secret sauce of their approach is the combination of both MLP and NLP processing types. By putting the MLP and two NLP models into a single representation, which is then passed through a linear classifier, greatly utilizes the strengths of both structured and unstructured data analysis.
 
 ## Findings and Contributions:
-•	High Detection Performance: The fused MultiText-LP model achieved an impressive F1 score of 96.80% and an accuracy of 97.18% on their research dataset, outperforming both standalone models and existing approaches (e.g., Aljofey’s method).
-•	Innovative Fusion Mechanism: By combining features from two pretrained NLP models and an MLP, the study demonstrates that integrating multiple data modalities can greatly enhance their phishing detection performance. This conclusion is backed by their F1 score and accuracy, which are impressive and competitive compared to other approaches on the market.
+  - High Detection Performance: The fused MultiText-LP model achieved an impressive F1 score of 96.80% and an accuracy of 97.18% on their research dataset, outperforming both standalone models and existing approaches (e.g., Aljofey’s method).
+  - Innovative Fusion Mechanism: By combining features from two pretrained NLP models and an MLP, the study demonstrates that integrating multiple data modalities can greatly enhance their phishing detection performance. This conclusion is backed by their F1 score and accuracy, which are impressive and competitive compared to other approaches on the market.
 
 ## Relevance to Project:
 The findings of this paper greatly helps us with our machine learning phishing detection application. The success and effectiveness with using the hybrid approach makes us very interested in their approach and further research is needed. Also, the open sharing of the dataset and detailed methodology used is an amazing reference, enabling us to replicate, compare, or build upon their approach in our own research. 
