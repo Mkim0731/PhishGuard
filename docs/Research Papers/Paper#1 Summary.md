@@ -5,6 +5,8 @@ Published On: March 24th, 2024
 
 Link: [read the full paper](https://pubmed.ncbi.nlm.nih.gov/38610289/)
 
+Summary by: Zi Xuan Li
+
 ## Problem Statement:
 This academic paper addresses the contemporary issue of detecting phishing in emails.
 For reference, phishing is a cybersecurity threat that exploits social engineering tactics to deceive
