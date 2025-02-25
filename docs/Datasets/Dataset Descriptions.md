@@ -37,11 +37,13 @@ This section includes five datasets collected from various sources. Each dataset
     - Address class imbalance to avoid the model favoring the majority class (non - phishing)
 - **Comparative Analysis:** The dataset provides raw email content along with pre-labeled email types, making it suitable for binary classification. However, compared to other datasets, it offers fewer features, which may require additional preprocessing to enhance the model's performance.
   
-### Blank
-- **Source:**
-- **Description:**
+### Phishing Email Dataset
+- **Source:** [kaggle](https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-dataset?utm_source=chatgpt.comDatasets)
+- **Description:** This dataset contains phishing and legitimate email samples. It includes both the subject and body of emails with a corresponding label indicating if the email is phishing or not.
 - **Usability:**
-- **Comparative Analysis:**
+    - Perform comprehensive text cleaning, removing special characters, numbers, and stop words to focus on the core message.
+    - Feature extraction on both subject and body text to capture contextual information for classification.
+- **Comparative Analysis:** With both subject and body included, this dataset allows for deeper analysis and potentially more accurate phishing detection models. It supports binary classification tasks and can be directly used in natural language processing (NLP) pipelines
 
 ## Citations
 Hall, Charlotte. Phishing Email Data by Type. Kaggle, 2023, <br>
