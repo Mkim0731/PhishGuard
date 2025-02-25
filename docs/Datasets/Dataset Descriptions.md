@@ -3,7 +3,7 @@
 ## Datasets
   
 ### Phishing Email Data by Type
-- **Source:** Kaggle, open-source repository
+- **Source:** Kaggle, [https://www.kaggle.com/datasets/charlottehall/phishing-email-data-by-type]
 - **Description:** This dataset contains phishing, fraud, commercial spam, and legitimate emails. There are two features namely “Subject” & “Text” with a label titled “Type”.
 - **Usability:**
     - Perform text cleaning: remove irrelevant symbols, numbers, and stop words (commonly used words such as “and” & “the”) to focus on meaningful features.
@@ -11,7 +11,7 @@
 - **Comparative Analysis:** Contains raw email content along with email subject and the label “Type” is already pre-labeled. 
 
 ### Phishing Email Detection
-- **Source:** Kaggle, open-source repository
+- **Source:** Kaggle, [https://www.kaggle.com/datasets/subhajournal/phishingemails]
 - **Description:** This dataset contains both phishing and legitimate email samples, with its only feature being “Email Text” and only label being “Email Type”.
 - **Usability:**
     - Perform text cleaning: remove irrelevant symbols, numbers, and stop words (commonly used words such as “and” & “the”) to focus on meaningful features.
@@ -20,7 +20,7 @@
 - **Comparative Analysis:** Contains raw email content and the label “Email Type” is already pre-labeled and can be easily encoded.
   
 ### PhiUSIIL Phishing URL (Website)
-- **Source:**
+- **Source:** UC Irvine Machine Learning Repository, [https://archive.ics.uci.edu/dataset/967/phiusiil+phishing+url+dataset]
 - **Description:** This dataset contains over 235,000 URL instances with multiple extracted features and is particularly useful for more extensive experiments. Some of those URLs are legit and some are phishing/spam.
 - **Usability:**
     - Having a list of safe and non-safe URLs will help us perform URL/domain name scanning before even having to look at the contents of the email sent.
@@ -29,7 +29,7 @@
     - Label 1 corresponds to a legitimate URL, label 0 to a phishing URL. Also, it includes a lot of other attributes for a given address.
       
 ### Ling-Spam Dataset
-- **Source:** Kaggle, open-source repository
+- **Source:** Kaggle, [https://www.kaggle.com/datasets/mandygu/lingspam-dataset]
 - **Description:** Contains a collection of phishing and legitimate emails. Includes single feature “Email Text” and a label “Email Type” to indicate if an email is phishing or legitimate
 - **Usability:**
     - Clean the email content by removing unnecessary symbols, numbers and common stop words to emphasize important features
