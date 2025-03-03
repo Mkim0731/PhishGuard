@@ -41,7 +41,7 @@ Phishing attacks are among the most common cybersecurity threats, often leading 
 🔹 Businesses & Enterprises – Prevent data breaches and phishing-related financial losses.
 
 🔹 Everyday Users – Avoid scams and phishing attempts effortlessly.
-
+<!-- 
 # Existing Application / Competitors
 
 
@@ -50,6 +50,6 @@ Phishing attacks are among the most common cybersecurity threats, often leading 
 - src/ #Source code
 - assets/ #Images, Videos, Other Media
 - tests/ #Test Files
-- README.md #Project Overview
+- README.md #Project Overview -->
 
 ### With PhishGuard, we’re taking a proactive approach to email security—protecting inboxes, securing data, and stopping phishing threats before they cause harm! 🔐✨
