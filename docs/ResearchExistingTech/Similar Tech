@@ -1,3 +1,24 @@
 https://github.com/fennybz/Detecting-Phishing-Attack-using-ML-DL-Models
+Summary of their approach: -
+
+📦 Data Collection
+Phishing URLs: 5,000 samples from PhishTank
+
+Legitimate URLs: 5,000 samples from the University of New Brunswick's dataset
+
+All data files are in the repository’s DataFiles folder.
+
+🧪 Feature Extraction
+17 features are extracted from URLs, categorized into:
+
+Address bar-based features (9)
+
+Domain-based features (4)
+
+HTML & JavaScript-based features (4)
+
+Detailed feature extraction is documented in URL Feature Extraction.ipynb.
+
 
 https://github.com/Click2Hack/Phishing-Email-Detection-Using-Machine-Learning?tab=readme-ov-file
+
