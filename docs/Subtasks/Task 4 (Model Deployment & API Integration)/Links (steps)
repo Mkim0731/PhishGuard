@@ -1,0 +1,113 @@
+🧱 1. Project Structure
+A typical Chrome extension project has this structure:
+
+css
+Copy
+Edit
+phishguard-extension/
+├── manifest.json
+├── background.js
+├── content.js
+├── popup.html
+├── popup.js
+├── styles.css
+├── icons/
+├── api/
+│   └── model_api.py (Flask or FastAPI app)
+└── model/
+    └── phishing_model.pkl
+🧩 2. manifest.json – Configure Extension
+This file defines the extension’s behavior and permissions.
+
+json
+Copy
+Edit
+{
+  "manifest_version": 3,
+  "name": "PhishGuard",
+  "version": "1.0",
+  "description": "Detect phishing emails using ML",
+  "permissions": ["scripting", "activeTab", "storage"],
+  "host_permissions": ["https://mail.google.com/"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
+🧠 3. Content Script (content.js) – Extract Gmail Text
+This runs in the context of the Gmail webpage and grabs the email body.
+
+javascript
+Copy
+Edit
+// Wait for Gmail's DOM to load fully
+setTimeout(() => {
+  const emailBody = document.querySelector('.ii.gt'); // Gmail class for email body
+  const emailText = emailBody?.innerText || '';
+
+  chrome.runtime.sendMessage({ emailText: emailText });
+}, 3000);
+🔁 4. Background Script (background.js) – Relay Data
+Handles communication between content script and your backend API.
+
+javascript
+Copy
+Edit
+chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+  fetch('http://localhost:5000/predict', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({ email: request.emailText })
+  })
+    .then(res => res.json())
+    .then(data => {
+      if (data.prediction === 1) {
+        alert("⚠️ This email might be a phishing attempt!");
+      }
+    });
+});
+🧪 5. Backend Model API (Flask Example)
+This is your ML model’s inference server.
+
+python
+Copy
+Edit
+from flask import Flask, request, jsonify
+import pickle
+import sklearn
+import re
+
+app = Flask(__name__)
+model = pickle.load(open("phishing_model.pkl", "rb"))
+vectorizer = pickle.load(open("vectorizer.pkl", "rb"))
+
+@app.route('/predict', methods=['POST'])
+def predict():
+    data = request.json['email']
+    vector = vectorizer.transform([data])
+    prediction = model.predict(vector)[0]
+    return jsonify({'prediction': int(prediction)})
+
+if __name__ == '__main__':
+    app.run(port=5000)
+You’ll need:
+
+bash
+Copy
+Edit
+pip install flask scikit-learn
