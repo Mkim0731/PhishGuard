@@ -48,12 +48,21 @@
 
 ### Existing Solutions:
 * Chrome Extensions: Tight UI integration
-### Limitations:
-* Gmail DOM changes break functionality
-* Alerts lack context
-### Improvements:
-* DOM-agnostic API-based detection (Gmail Add-on)
-  * Avoid UI breakage on updates.
-  * Access raw headers/metadata reliably.
+* JavaScript Alerts / React Popups
+* Email Security Gateways (Proofpoint, Mimecast)
+* Web Push Notifications (Firebase/Web API)
 
+### Limitations:
+* Gmail DOM changes can break extension functionality
+* Alerts often lack context or explanation, leading users to ignore them.
+* Email security gateways are costly and not customizable for individual users.
+* Web push requires user opt-in and backend infra.
+
+### Improvements:
+* DOM-agnostic detection via Gmail Add-on APIs
+* 🔗 Gmail Add-ons API Docs
+   → Avoid breakage from DOM structure changes.
+   → Access raw headers, metadata, and message payloads directly.
+* Alert Enhancement: Include detailed context (e.g., failed SPF/DKIM, suspicious links).
+* Hybrid Approach: Combine browser-based alerts + push notifications for persistent cross-device warnings.
 
