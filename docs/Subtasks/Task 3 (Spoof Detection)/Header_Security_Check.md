@@ -5,7 +5,7 @@ Examine email headers to detect spoofing using standard security protocols.
 
 ## Existing Technologies & Methodologies
 
-### 1. Python `email` module
+### 1. Python Email Module: Parses raw headers (SPF, DKIM, DMARC)
 - Parses raw email headers including SPF, DKIM, and DMARC entries.
 
 **Strengths:**
@@ -13,21 +13,22 @@ Examine email headers to detect spoofing using standard security protocols.
 - Works across platforms.
 
 **Weaknesses:**
-- Verbose and low-level for complex parsing.
+- Low-level; complex for detailed parsing.
 
 **Docs:** [Python Email Module](https://docs.python.org/3/library/email.html)
 
 ---
 
 ### 2. `mailparser` Python Library
-- Simplifies parsing of raw `.eml` messages and headers.
+- High-level .eml and header parser.
 
 **Strengths:**
 - High-level and easy to use.
 - Compatible with `pandas`.
+- Simple and efficient.
 
 **Weaknesses:**
-- May not support all edge cases or custom headers.
+- Limited support for non-standard headers.
 
 **GitHub:** [mailparser](https://github.com/SpamScope/mailparser)
 
@@ -35,12 +36,23 @@ Examine email headers to detect spoofing using standard security protocols.
 
 ### 3. `dkimpy` and `pyspf`
 - Libraries to validate DKIM signatures and SPF DNS records.
+- Validates DKIM signatures and SPF records via DNS.
 
 **Strengths:**
 - Protocol-compliant.
 - Offers detailed validation feedback.
 
 **Weaknesses:**
-- Requires exception handling and DNS access.
+- Requires DNS access and error handling.
 
 **GitHub:** [dkimpy](https://github.com/kamailio/dkimpy) | [pyspf](https://github.com/sdgathman/pyspf)
+
+
+### 4. Header Parsing (TLS): 
+- Checks Received headers for TLS/ESMTPS.
+- 
+- **Strengths:**
+Passive and lightweight.
+
+**Weaknesses:**
+- Header format inconsistencies; not encryption-proof.
