@@ -2,17 +2,21 @@
 
 ### Existing Solutions:
 * Gmail’s Spam & Phishing Detection System: Multi-layered system with NLP, template matching, and metadata analysis. Highly scalable, trained on billions of emails.
-* BERT/RoBERTa: High accuracy but resource-heavy
+* BERT/RoBERTa (via HuggingFace): Transformer-based deep learning models fine-tuned for phishing classification.
+* SpaCy / NLTK: Efficient preprocessing libraries used for tokenization, lemmatization, and entity recognition.
 ### Limitations:
-* Struggles with adversarial text (misspellings, Unicode tricks)
-* No unified model for text + metadata
+* Struggles with adversarial content manipulation (e.g., typos, homoglyph attacks, Unicode spoofing).
+* No unified pipeline integrating both semantic content and structured metadata.
+* Gmail’s system is non-reproducible (black-box); not transparent or open-source.
+* BERT/RoBERTa models are computationally expensive for real-time deployment.
 ### Improvements:
 * Hybrid model: DistilBERT (lightweight) + XGBoost (structured features)
   * DistilBERT: Lightweight transformer for semantic analysis (60% faster than BERT).
   * XGBoost: Handles structured features (e.g., sender history, grammar errors).
   * Combination: Merge model outputs with meta-learner for final score.
 * Adversarial training with generated phishing examples.
-  * Train models to flag these evasive techniques.
+  * Generate phishing examples using misspellings, fake login prompts, hidden redirects, etc.
+  * Improves detection of evasive phishing techniques often missed by standard classifiers.
 
 # Link Checks
 
