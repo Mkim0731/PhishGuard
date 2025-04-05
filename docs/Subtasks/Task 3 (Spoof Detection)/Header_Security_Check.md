@@ -47,12 +47,27 @@ Examine email headers to detect spoofing using standard security protocols.
 
 **GitHub:** [dkimpy](https://github.com/kamailio/dkimpy) | [pyspf](https://github.com/sdgathman/pyspf)
 
+---
 
 ### 4. Header Parsing (TLS): 
 - Checks Received headers for TLS/ESMTPS.
-- 
+  
 - **Strengths:**
 Passive and lightweight.
 
 **Weaknesses:**
 - Header format inconsistencies; not encryption-proof.
+- **Tutorial:** [Email Header Parsing](https://www.geeksforgeeks.org/how-to-extract-email-headers-in-python/)
+
+---
+
+### 5. Smtplib TLS Test: 
+- Sends test emails to verify STARTTLS.
+  
+- **Strengths:**
+Actively confirms server TLS support.
+
+**Weaknesses:**
+- Tests outbound only, not inbound security.
+- 
+**Docs:** [Python smtplib](https://docs.python.org/3/library/smtplib.html)
