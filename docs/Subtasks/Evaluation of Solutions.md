@@ -17,7 +17,7 @@
 * Adversarial training with generated phishing examples.
   * Generate phishing examples using misspellings, fake login prompts, hidden redirects, etc.
   * Improves detection of evasive phishing techniques often missed by standard classifiers.
-
+---
 # Link Checks
 
 ### Existing Solutions:
@@ -30,20 +30,29 @@
 * Live DNS/WHOIS lookup + screenshot analysis
   * Flag domains registered <7 days ago.
   * Detect mismatched registrar/country.
-
+---
 # Spoof Detection
 
 ### Existing Solutions:
-* Python email/dkimpy: Protocol-compliant but low-level
-### Limitations:
-* SPF/DKIM can be spoofed
-* No behavioral analysis (e.g., sudden geo changes)
-### Improvements:
-* Add sender reputation scoring (past emails, domain age) based on:
-  * Historical sending patterns.
-  * Domain age + TLS adoption.
-  * Geographic consistency (e.g., login attempts vs. email origin).
+* Python Email Module / dkimpy / pyspf: Protocol-compliant tools for parsing and validating SPF, DKIM, and DMARC.
+* Mailparser: High-level .eml parser for extracting headers.
+* Header Parsing (TLS): Checks Received headers for encryption indicators.
+* smtplib + STARTTLS: Actively verifies server TLS support.
 
+### Limitations:
+* SPF/DKIM can be spoofed or misconfigured.
+* Header formats vary; inconsistent TLS indicators.
+* No behavioral analysis (e.g., geo-location shifts, unusual login/email origination).
+* Inbound TLS status cannot be verified via active tests.
+
+### Improvements:
+* Unify validation pipeline: Combine spoofing and TLS checks into one module.
+* Add sender reputation scoring based on:
+   Domain age and TLS adoption.
+   Historical sending patterns (volume, frequency).
+   Geographic consistency between login location and email origin.
+* Fallback heuristics: Flag mismatched headers, missing Return-Path, or suspicious IPs when auth fails.
+---
 # Real Time Alerts
 
 ### Existing Solutions:
@@ -65,4 +74,4 @@
    → Access raw headers, metadata, and message payloads directly.
 * Alert Enhancement: Include detailed context (e.g., failed SPF/DKIM, suspicious links).
 * Hybrid Approach: Combine browser-based alerts + push notifications for persistent cross-device warnings.
-
+---
