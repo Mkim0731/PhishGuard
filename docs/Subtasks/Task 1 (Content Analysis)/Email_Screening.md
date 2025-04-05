@@ -16,6 +16,7 @@ Automatically detect phishing emails by analyzing email content, sender metadata
 ** Weaknesses:**
 - Operates as a black box—hard to interpret or debug model decisions externally. Requires enormous data
 
+---
 
 ### 2. BERT / RoBERTa via HuggingFace
 - Transformer-based deep learning models pretrained on large corpora.
