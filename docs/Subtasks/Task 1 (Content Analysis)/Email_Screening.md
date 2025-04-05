@@ -5,22 +5,17 @@ Automatically detect phishing emails by analyzing email content, sender metadata
 
 ## Existing Technologies & Methodologies
 
-### 1. scikit-learn
-- Used for traditional ML models like Logistic Regression, Random Forest, and XGBoost.
-- Works well with structured features (e.g., word frequency, header flags).
 
-**Strengths:**
-- Fast training and testing.
-- Interpretable models.
-- Easy integration with Python-based pipelines.
+### 1. Gmail’s Spam & Phishing Detection System 
+- NLP, metadata analysis, and template recognition, (Related library that can be possibly used for the project-SpaCy&NLTK)
+** Strengths:**
+- Uses billions of emails to train multi layered models(TF-IDF, deep learning, transformers) 
+- Text Preprocessing - Tokenization(break text into smaller units), lemmatization(clean irrelevant words, standardize format) 
+- Feature extraction - Entity recognitions(extract named entities)
+- Contextual Triggers & Templates - detects template-based phishing
+** Weaknesses:**
+- Operates as a black box—hard to interpret or debug model decisions externally. Requires enormous data
 
-**Weaknesses:**
-- Requires manual feature engineering.
-- Doesn’t capture semantic context of words.
-
-**GitHub:** [scikit-learn](https://github.com/scikit-learn/scikit-learn)
-
----
 
 ### 2. BERT / RoBERTa via HuggingFace
 - Transformer-based deep learning models pretrained on large corpora.
