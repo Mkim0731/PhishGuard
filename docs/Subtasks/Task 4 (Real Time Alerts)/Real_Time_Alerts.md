@@ -31,3 +31,31 @@ Notify users instantly when a phishing email is detected via Chrome extension in
 - Alerts can be intrusive and break UX flow.
 
 **Starter Kit:** [Chrome Extension Starter](https://github.com/abhijithvijayan/awesome-chrome-extensions)
+
+---
+
+### 3. Email Security Gateways (e.g., Proofpoint, Mimecast)
+- Trigger real-time banners or warnings on suspicious messages.
+
+**Strengths:**
+- Enterprise-grade threat detection with centralized alerting.
+
+**Weaknesses:**
+- Costly, not user-configurable, adds latency in message delivery.
+
+**Starter Kit:** [Chrome Extension Starter](https://github.com/abhijithvijayan/awesome-chrome-extensions)
+
+---
+
+### 4. Push Notification APIs (Web Push / Firebase)
+- Notify users outside the inbox (browser/mobile) when a phishing attempt is flagged.
+
+**Strengths:**
+- Asynchronous alerting, works beyond browser tab scope.
+
+**Weaknesses:**
+- Requires notification permissions and backend infrastructure.
+
+**WebPush API:** [Chrome Extension Starter]([https://github.com/abhijithvijayan/awesome-chrome-extensions](https://developer.mozilla.org/en-US/docs/Web/API/Push_API))
+**Github:** [Chrome Extension Starter]([[https://github.com/abhijithvijayan/awesome-chrome-extensions](https://developer.mozilla.org/en-US/docs/Web/API/Push_API)](https://github.com/firebase/quickstart-js/tree/master/messaging))
+
