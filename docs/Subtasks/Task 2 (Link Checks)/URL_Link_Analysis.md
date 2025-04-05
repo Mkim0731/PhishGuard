@@ -5,18 +5,18 @@ Scan embedded links in emails for signs of phishing or malicious behavior.
 
 ## Existing Technologies & Methodologies
 
-### 1. URLNet
-- Deep learning model that treats URLs as sequences of characters and learns patterns.
+### 1. Google Safe Browsing API
+- cloud-based phishing and malware link scanner. Checks URLs against continuously updated blacklists of known malicious domains and phishing infrastructure.
 
 **Strengths:**
-- Detects obfuscated URLs.
-- Learns from raw data without manual feature engineering.
+- Real-time lookup from Google’s global threat intelligence.
+- Seamlessly integrates into browsers (Chrome, Firefox) and email filters (e.g., Gmail, G Suite).
 
 **Weaknesses:**
-- Needs a lot of labeled training data.
-- More complex to train and deploy.
+- Relies heavily on known-bad domain lists (blacklists)
+- Delayed response to zero-day phishing URLs that haven't been seen before.
 
-**GitHub:** [URLNet](https://github.com/antonyt/urlNet)
+**Reference:** [URLNet]([https://github.com/antonyt/urlNet](https://developers.google.com/safe-browsing/reference))
 
 ---
 
@@ -39,8 +39,11 @@ Scan embedded links in emails for signs of phishing or malicious behavior.
 **Strengths:**
 - Provides up-to-date data on malicious domains.
 - Easy to integrate.
+- Uses blacklist databases, heuristic analysis, and signature-based detection across 70+ engines
+- Reports also include protocols used, redirects, and embedded resource behavior.
 
 **Weaknesses:**
 - Depends on third-party availability and API rate limits.
+- Not optimized for real-time email pipelines due to public query rate limits and latency
 
 **APIs:** [PhishTank](https://www.phishtank.com/api_info.php) | [VirusTotal](https://developers.virustotal.com/)
