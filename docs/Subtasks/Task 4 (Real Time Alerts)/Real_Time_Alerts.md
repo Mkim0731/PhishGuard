@@ -56,7 +56,7 @@ Notify users instantly when a phishing email is detected via Chrome extension in
 **Weaknesses:**
 - Requires notification permissions and backend infrastructure.
 
-**WebPush API:** ([https://developer.mozilla.org/en-US/docs/Web/API/Push_API])
+**WebPush API:** https://developer.mozilla.org/en-US/docs/Web/API/Push_API
 
 **Github:** [Chrome Extension Starter]([[https://github.com/abhijithvijayan/awesome-chrome-extensions](https://developer.mozilla.org/en-US/docs/Web/API/Push_API)](https://github.com/firebase/quickstart-js/tree/master/messaging))
 
