@@ -1,7 +1,7 @@
 # Content Analysis
 
 ### Existing Solutions:
-* scikit-learn: Fast but needs manual features
+* Gmail’s Spam & Phishing Detection System: Multi-layered system with NLP, template matching, and metadata analysis. Highly scalable, trained on billions of emails.
 * BERT/RoBERTa: High accuracy but resource-heavy
 ### Limitations:
 * Struggles with adversarial text (misspellings, Unicode tricks)
