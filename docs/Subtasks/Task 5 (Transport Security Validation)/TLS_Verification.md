@@ -17,7 +17,7 @@ Verify whether emails are transmitted securely via TLS by inspecting headers or 
 - TLS presence ≠ strong encryption.
 
 **Tutorial:** [Email Header Parsing](https://www.geeksforgeeks.org/how-to-extract-email-headers-in-python/)
-
+**Docs:** [Python smtplib](https://docs.python.org/3/library/smtplib.html)
 ---
 
 ### 2. `smtplib` TLS Tests
