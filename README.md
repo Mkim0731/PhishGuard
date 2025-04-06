@@ -7,7 +7,7 @@ Hi, I’m Nizar Azar, leading the PhishGuard initiative. My role is to oversee d
 Hello! I’m Peng Gao, As the Techsmith, I specialize in implementing cutting-edge technologies, optimizing system performance, and ensuring our phishing detection model is efficient and scalable.
 
 ### 🔹 Systems Savvy - Zi Xuan Li 
-Hey there! I’m Zi Xuan Li, With a keen eye for detail, I manage project documentation, ensuring clear, well-structured records of system architecture, workflows, and technical processes.
+I’m Zi Xuan Li, I will be in charge of managing project documentation, ensuring clear, well-structured records of system architecture, workflows, and technical processes.
 
 ### 🔹 Quality Assurance Lead - Minsu Kim 
 Hi, I am Minsu Kim. As the Quality Assurance Lead, I rigorously test our phishing detection system to ensure accuracy, reliability, and security before deployment.
