@@ -1,8 +1,6 @@
 # SIMILAR PROJECT ON A GOOGLE EXTENSION
 
-## 1) https://github.com/arvind-rs/phishing_detector/tree/master/Engineering%20Module
-
-## 2) https://github.com/shreyagopal/Phishing-Website-Detection-by-Machine-Learning-Techniques 
+## 1) https://github.com/shreyagopal/Phishing-Website-Detection-by-Machine-Learning-Techniques 
 
 ### 📦 Data Collection
 Phishing URLs: 5,000 samples from PhishTank \
@@ -32,7 +30,7 @@ Training and evaluation are detailed in Phishing Website Detection_Models & Trai
 XGBoost achieved the highest accuracy: 86.4% \
 Saved model: XGBoostClassifier.pickle.dat, later implemented using a browser extension.
 
-## 3) https://github.com/Click2Hack/Phishing-Email-Detection-Using-Machine-Learning?tab=readme-ov-file
+## 2) https://github.com/Click2Hack/Phishing-Email-Detection-Using-Machine-Learning?tab=readme-ov-file
 
 ### 🧰 Key Features
 * Email Classification: Labels emails as "Phishing" or "Not Phishing".
@@ -60,7 +58,7 @@ Step-by-step Process:
 * TF-IDF Vectorization (NLP)
 * Flask (optional, for deployment)
 
-## 4) https://github.com/fennybz/Detecting-Phishing-Attack-using-ML-DL-Models
+## 3) https://github.com/fennybz/Detecting-Phishing-Attack-using-ML-DL-Models
 
 ### 🗂️ Dataset
 
@@ -96,3 +94,6 @@ Machine Learning Models
 
 Neural Network significantly outperformed traditional ML models in terms of accuracy.
 
+## 4) https://github.com/arvind-rs/phishing_detector/tree/master/Engineering%20Module
+
+## 5) https://github.com/KartikTalwar/gmail.js
