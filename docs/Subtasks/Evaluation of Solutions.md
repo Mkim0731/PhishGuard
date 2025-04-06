@@ -69,9 +69,9 @@
 
 ### Improvements:
 * DOM-agnostic detection via Gmail Add-on APIs
-* 🔗 Gmail Add-ons API Docs
-   → Avoid breakage from DOM structure changes.
-   → Access raw headers, metadata, and message payloads directly.
+* Gmail Add-ons API Docs
+   * Avoid breakage from DOM structure changes.
+   * Access raw headers, metadata, and message payloads directly.
 * Alert Enhancement: Include detailed context (e.g., failed SPF/DKIM, suspicious links).
 * Hybrid Approach: Combine browser-based alerts + push notifications for persistent cross-device warnings.
 ---
