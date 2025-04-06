@@ -53,6 +53,6 @@ detection application. The paper demonstrated the effectiveness of CNNs with rec
 which suggests us to incorporate similar deep learning techniques into our project. Additionally,
 the paper provides insights on data preparation and model training strategies.
 ## Citations:
-Altwaijry, Najwa et al. “Advancing Phishing Email Detection: A Comparative Study of
-Deep Learning Models.” Sensors (Basel, Switzerland) vol. 24,7 2077. 24 Mar. 2024,
-doi:10.3390/s24072077
+Altwaijry, N.; Al-Turaiki, I.; Alotaibi, R.; Alakeel, F. Advancing Phishing Email Detection: A Comparative Study of Deep Learning Models. Sensors 2024, 24, 2077. https://doi.org/10.3390/s24072077
+
+
