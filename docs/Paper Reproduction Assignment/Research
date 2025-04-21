@@ -49,6 +49,12 @@ Embedding layer: These characters are converted into dense vector representation
 Convolutional layers: The model uses 1D CNNs to capture local patterns in the character sequences — akin to n-gram features in NLP.
 Pooling layers: These reduce the dimensionality and highlight the most informative patterns.
 Fully connected output layer: This layer performs binary classification to label each URL as phishing (1) or benign (0).
+
+Challenges: - 
+Computational Load: Training on the full 5M+ URL dataset may require a GPU and sufficient memory; subsampling may be necessary.
+Version Compatibility: Slight differences in TensorFlow or library versions could affect results.
+Hyperparameter Gaps: Some training details (e.g., learning rate, dropout) may need to be inferred from the code.
+Random Variation: Without a fixed seed, results may vary slightly between runs.
 .
 .
 .
@@ -61,4 +67,4 @@ Reconstructing key figures/results (if applicable).
 Compare your results with the original paper’s findings.
 Discuss possible reasons for differences (e.g., parameter choices, data preprocessing).
 
-ALL REPRODUCTION AND ANALYSIS IS IN A DIFFERENT FILE UNDER NAMED "Reproduction & Analysis" UNDER "Paper Reproduction Assignment".
+ALL REPRODUCTION AND ANALYSIS IS IN A DIFFERENT FILE NAMED "Reproduction & Analysis" UNDER "Paper Reproduction Assignment".
