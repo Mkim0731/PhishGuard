@@ -1,0 +1,7 @@
+# Use Python 3.8
+numpy<1.20,>=1.19.5       # TF 2.2 requires np.object alias
+tensorflow-cpu==2.2.0     # or `tensorflow==2.2.0` if you have GPU-compatible CUDA/cuDNN
+requests>=2.20            # for downloading the data files
+scikit-learn>=0.22,<0.25  # for accuracy_score & classification_report
+
+# pip install -r requirements.txt
