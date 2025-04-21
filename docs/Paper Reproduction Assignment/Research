@@ -1,0 +1,42 @@
+1. Paper Selection
+Choose a peer-reviewed research paper (conference or journal) relevant to your project.
+The paper should include at least one available dataset with experimental or analytical results.
+.
+.
+.
+PAPER: -
+https://www.researchgate.net/publication/377343024_DEPHIDES_Deep_Learning_Based_Phishing_Detection_System
+
+CODE: -
+https://github.com/ebubekirbbr/dephides/blob/main/README.md
+
+Peer-Reviewed: - 
+The Paper is peer-reviewed IEEE Access PP(99):1-1 and licensed by CC BY-NC-ND 4.0
+.
+.
+.
+
+2. Reproduction Plan
+The research question you will reproduce.
+The dataset, tools, or methodology required.
+Potential challenges you foresee (e.g., missing details in the paper, computational constraints).
+.
+.
+.
+RESEARCH QUESTION: -  Can a character-level convolutional neural network (CNN) trained on raw URL text accurately 
+                      classify phishing vs. benign URLs without relying on handcrafted features?
+Dataset:
+We will use the same dataset provided by the DEPHIDES authors, which contains approximately 5.2 million labeled URLs (phishing and legitimate).
+This dataset is available publicly through the paper’s GitHub repository, making it easy to download and integrate.
+https://github.com/ebubekirbbr/dephides/tree/main/dataset
+
+Tools:
+The DEPHIDES system was implemented using the following tools and libraries:
+
+Python 3.8
+TensorFlow 2.2 for model training and evaluation
+Keras (as part of TensorFlow) for model building
+NumPy and Pandas for data manipulation
+Matplotlib for plotting training performance
+Scikit-learn for computing evaluation metrics such as precision, recall, and F1-score
+
