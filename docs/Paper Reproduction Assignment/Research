@@ -68,3 +68,24 @@ Compare your results with the original paper’s findings.
 Discuss possible reasons for differences (e.g., parameter choices, data preprocessing).
 
 ALL REPRODUCTION AND ANALYSIS IS IN A DIFFERENT FILE NAMED "Reproduction & Analysis" UNDER "Paper Reproduction Assignment".
+
+Reproduction Output:
+
+Final training accuracy: 99.39%
+
+Final validation accuracy: 97.97%
+
+Test accuracy: 97.95%
+
+Strong generalization and no major overfitting issues.
+
+Artifacts Saved:
+
+model.h5 → Trained model.
+tokenizer.pkl → Fitted character-level tokenizer.
+training_curves.png → Accuracy & loss plots.
+Classification report shows balanced precision/recall for both classes.
+
+Model Architecture:
+Char-level CNN with 3 Conv1D + MaxPooling layers.
+~179K total parameters.
